@@ -1,5 +1,5 @@
 {% set name = "pysipfenn" %}
-{% set version = "0.13.0" %}
+{% set version = "0.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pysipfenn-{{ version }}.tar.gz
-  sha256: ffe1c8e773d147a98353d456566834a966c6d3fac8c02f95d2e62e45f75c3b71
+  sha256: 3ad92041c45d66cdf912205aabb6ce302024511877652256a43c67ce365335d3
 
 build:
   noarch: python
