@@ -5,9 +5,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pysipfenn-feeds
 
 Home: https://phaseslab.com/sipfenn
 
-Package license: GPL-3.0-or-later
+Package license: LGPL-3.0-only
 
-Summary: Easily extensible Python package for running Structure-Informed Prediction of Formation Energy using Neural Networks (SIPFENN)
+Summary: Easily extensible Python package for featurizing periodic atomic structures and running Structure-Informed Prediction of Formation Energy using Neural Networks (SIPFENN)
 
 Development: https://github.com/PhasesResearchLab/pySIPFENN
 
