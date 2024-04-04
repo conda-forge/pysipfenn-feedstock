@@ -1,5 +1,5 @@
 {% set name = "pysipfenn" %}
-{% set version = "0.15.1" %}
+{% set version = "0.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pysipfenn-{{ version }}.tar.gz
-  sha256: a29838d285588727712fa739eb160d0df06505acd12cf6f1a8738d6ec85fd871
+  sha256: 6de58f981d6eeb129e24de9948a990d0efcb47f42acbc53494c07378715cc317
 
 build:
   noarch: python
@@ -21,6 +21,7 @@ requirements:
     - setuptools-scm
     - pip
   run:
+    - plotly >=5.15.0
     - colorama
     - pysmartdl2 >=2.0.0
     - ruamel.yaml
