@@ -1,5 +1,5 @@
 {% set name = "pysipfenn" %}
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pysipfenn-{{ version }}.tar.gz
-  sha256: 6de58f981d6eeb129e24de9948a990d0efcb47f42acbc53494c07378715cc317
+  sha256: 450a9b734ea11c64e9b27aec4348155267f84175371edc2d1184d5126bd97342
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ requirements:
     - pytorch >=2.1.0
     - onnx2torch >=1.5.2
     - onnx >=1.13.0
-    - numpy >=1.25.0
+    - numpy >=1.25.0,<2.0.0
     - tqdm >=4.65.0
     - natsort >=8.3.0
     - pymongo >=4.4
